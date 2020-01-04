@@ -505,7 +505,7 @@ textarea:focus {
         font-family: 'exanregular';
         line-height: 10vh;
         font-size: 1.5vh;
-        width: 22vw;
+        width: 24vw;
         margin: 0 6vw;
         text-decoration: none;
         color: var(--offwhite);
