@@ -203,18 +203,18 @@ nav {
 @media screen and (max-width:768px) {
     .btn {
         display: inline-block;
-        width: 30px;
-        height: 30px;
+        width: 45px;
+        height: 45px;
         background: var(--white);
-        margin: 5px;
+        margin: 8px;
         border-radius: 70%;
         color: var(--darkgrey);
         overflow: hidden;
         position: relative;
     }
     .btn i {
-        line-height: 30px;
-        font-size: 13px;
+        line-height: 45px;
+        font-size: 20px;
         transition: 0.2s linear;
     }
     .btn:hover i {
