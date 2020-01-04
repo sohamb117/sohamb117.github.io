@@ -179,8 +179,8 @@ nav {
 
 .btn {
     display: inline-block;
-    width: 60px;
-    height: 60px;
+    width: 3.1vw;
+    height: 3.1vw;
     background: var(--white);
     margin: 10px;
     border-radius: 70%;
@@ -190,8 +190,8 @@ nav {
 }
 
 .btn i {
-    line-height: 60px;
-    font-size: 26px;
+    line-height: 3.1vw;
+    font-size: 1.3vw;
     transition: 0.2s linear;
 }
 
