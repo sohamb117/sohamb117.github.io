@@ -452,6 +452,12 @@ textarea:focus {
 }
 
 @media screen and (max-width:768px) {
+    .sectionHeader {
+        text-align: center;
+        font-family: 'exanregular';
+        padding-top: 20vh;
+        color: var(--white);
+    }
     .project {
         width: 90vw;
         height: 10vh;
@@ -461,10 +467,17 @@ textarea:focus {
         vertical-align: middle;
         transition: ease 0.25s;
     }
+    #aboutText {
+        width: 70vw;
+        margin: 5vh auto;
+        line-height: 30px;
+        color: var(--white);
+        font-size: 1.5vh;
+    }
     .projectName {
         font-family: 'exanregular';
         line-height: 10vh;
-        font-size: 1.3vh;
+        font-size: 1.5vh;
         width: 22vw;
         margin: 0 6vw;
         text-decoration: none;
@@ -475,7 +488,7 @@ textarea:focus {
         font-family: 'Dosis';
         line-height: 10vh;
         margin: 0 0.5vw;
-        font-size: 1.15vh;
+        font-size: 1.3vh;
         color: var(--offwhite);
         transition: ease 0.25s;
     }
