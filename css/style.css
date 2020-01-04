@@ -468,7 +468,7 @@ textarea:focus {
         transition: ease 0.25s;
     }
     #aboutText {
-        width: 70vw;
+        width: 90vw;
         margin: 5vh auto;
         line-height: 30px;
         color: var(--white);
