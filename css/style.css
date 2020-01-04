@@ -450,3 +450,51 @@ textarea:focus {
     transform: scale(1.005);
     color: var(--nearblack);
 }
+
+@media screen and (max-width:768px) {
+    .sectionHeader {
+        text-align: center;
+        font-family: 'exanregular';
+        padding-top: 5vh;
+        color: var(--white);
+    }
+    .projectName {
+        font-family: 'exanregular';
+        line-height: 10vh;
+        font-size: 1vh;
+        margin: 0 1vw;
+        text-decoration: none;
+        color: var(--offwhite);
+        transition: ease 0.25s;
+    }
+    .projectInfo {
+        font-family: 'Dosis';
+        line-height: 10vh;
+        margin: 0 0.5vw;
+        font-size: 0.5vh;
+        color: var(--offwhite);
+        transition: ease 0.25s;
+    }
+    .project:hover {
+        background-color: var(--white);
+        transform: scale(1);
+    }
+    .project:hover .projectInfo {
+        color: var(--nearblack);
+        transform: scale(1);
+    }
+    .project:hover .projectName {
+        color: var(--nearblack);
+        transform: scale(1);
+    }
+    .project:hover #intext {
+        color: var(--nearblack);
+        transform: scale(1);
+    }
+    input:focus,
+    textarea:focus {
+        color: var(--offblack);
+        background-color: var(--white);
+        transform: scale(1);
+    }
+}
